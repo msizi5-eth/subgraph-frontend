@@ -237,7 +237,7 @@ export default function Home() {
         <div>
           <h1 className="title">Welcome to Random Winner Game!</h1>
           <div className="description">
-            It's a lottery game where a winner is chosen at random and wins the entire lottery pool
+            It&apos;s a lottery game where a winner is chosen at random and wins the entire lottery pool
           </div>
           {renderButton()}
           {logs && logs.map((log, index) => (
